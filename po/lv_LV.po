@@ -1,0 +1,745 @@
+# Latvian translations for PACKAGE package.
+# Copyright (C) 2020 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#  <maxi.fg13@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-15 20:53-0300\n"
+"PO-Revision-Date: 2020-04-15 21:52-0300\n"
+"Last-Translator:  <maxi.fg13@gmail.com>\n"
+"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+#: english.conf:5
+msgid "en_US.UTF-8"
+msgstr ""
+
+#: english.conf:30 english.conf:32
+msgid "-"
+msgstr ""
+
+#: english.conf:38
+msgid "Z1Error:Zn"
+msgstr ""
+
+#: english.conf:40
+msgid "Yes"
+msgstr ""
+
+#: english.conf:42
+msgid "No"
+msgstr ""
+
+#: english.conf:44
+msgid "Ok"
+msgstr ""
+
+#: english.conf:46
+msgid "Cancel"
+msgstr ""
+
+#: english.conf:48
+msgid "Other"
+msgstr ""
+
+#: english.conf:50
+msgid "Default"
+msgstr ""
+
+#: english.conf:52 english.conf:170 english.conf:704
+msgid "Edit"
+msgstr ""
+
+#: english.conf:54
+msgid "Back"
+msgstr ""
+
+#: english.conf:56
+msgid "Done"
+msgstr ""
+
+#: english.conf:58
+msgid "Partition"
+msgstr ""
+
+#: english.conf:60
+msgid "Size"
+msgstr ""
+
+#: english.conf:62 english.conf:722
+msgid "Add"
+msgstr ""
+
+#: english.conf:64
+msgid "New"
+msgstr ""
+
+#: english.conf:66
+msgid "Change-Password"
+msgstr ""
+
+#: english.conf:68
+msgid "Change-Full-Username"
+msgstr ""
+
+#: english.conf:70
+msgid "Change-Shell"
+msgstr ""
+
+#: english.conf:72
+msgid "Change-Privilege"
+msgstr ""
+
+#: english.conf:74
+msgid "Remove-User"
+msgstr ""
+
+#: english.conf:76 english.conf:178 english.conf:204 english.conf:264
+#: english.conf:266 english.conf:268 english.conf:272 english.conf:274
+#: english.conf:276 english.conf:278 english.conf:280
+msgid "Install"
+msgstr ""
+
+#: english.conf:78
+msgid "Mount"
+msgstr ""
+
+#: english.conf:80
+msgid "Custom"
+msgstr ""
+
+#: english.conf:82
+msgid "Write-Changes"
+msgstr ""
+
+#: english.conf:84
+msgid "None"
+msgstr ""
+
+#: english.conf:86 english.conf:116 english.conf:120 english.conf:124
+#: english.conf:140 english.conf:168 english.conf:180 english.conf:250
+#: english.conf:258 english.conf:260 english.conf:286 english.conf:698
+#: english.conf:706
+msgid "Select"
+msgstr ""
+
+#: english.conf:88
+msgid "Drivers"
+msgstr ""
+
+#: english.conf:90
+msgid "Open"
+msgstr ""
+
+#: english.conf:92
+msgid "Enter"
+msgstr ""
+
+#: english.conf:98
+msgid "Write"
+msgstr ""
+
+#: english.conf:100
+msgid "Welcome"
+msgstr ""
+
+#: english.conf:102
+msgid "Wifi"
+msgstr ""
+
+#: english.conf:104
+msgid "Unable"
+msgstr ""
+
+#: english.conf:110 english.conf:112 english.conf:114 english.conf:166
+#: english.conf:740
+msgid "Please"
+msgstr ""
+
+#: english.conf:118
+msgid "Auto"
+msgstr ""
+
+#: english.conf:122
+msgid "Return"
+msgstr ""
+
+#: english.conf:126 english.conf:136 english.conf:138 english.conf:252
+#: english.conf:254 english.conf:256 english.conf:282 english.conf:692
+#: english.conf:694
+msgid "Would"
+msgstr ""
+
+#: english.conf:128
+msgid "Specify"
+msgstr ""
+
+#: english.conf:144
+msgid "Passwords"
+msgstr ""
+
+#: english.conf:146
+msgid "An"
+msgstr ""
+
+#: english.conf:148
+msgid "Drive"
+msgstr ""
+
+#: english.conf:152
+msgid "Guided"
+msgstr ""
+
+#: english.conf:158 english.conf:718 english.conf:720
+msgid "Confirm"
+msgstr ""
+
+#: english.conf:160 english.conf:162 english.conf:270
+msgid "n"
+msgstr ""
+
+#: english.conf:164
+msgid "Update"
+msgstr ""
+
+#: english.conf:172
+msgid "Download"
+msgstr ""
+
+#: english.conf:174
+msgid "Skip"
+msgstr ""
+
+#: english.conf:176 english.conf:288 english.conf:290
+msgid "Are"
+msgstr ""
+
+#: english.conf:182
+msgid "Netctl"
+msgstr ""
+
+#: english.conf:184
+msgid "NetworkManager"
+msgstr ""
+
+#: english.conf:186
+msgid "Include"
+msgstr ""
+
+#: english.conf:188 english.conf:190
+msgid "Vanilla"
+msgstr ""
+
+#: english.conf:192 english.conf:194
+msgid "Hardened"
+msgstr ""
+
+#: english.conf:196 english.conf:198
+msgid "Long"
+msgstr ""
+
+#: english.conf:200 english.conf:202
+msgid "Zen"
+msgstr ""
+
+#: english.conf:206
+msgid "Warning!"
+msgstr ""
+
+#: english.conf:208
+msgid "After"
+msgstr ""
+
+#: english.conf:210
+msgid "Installing"
+msgstr ""
+
+#: english.conf:212
+msgid "Ready"
+msgstr ""
+
+#: english.conf:218
+msgid "64-bit"
+msgstr ""
+
+#: english.conf:220 english.conf:712
+msgid "Enable"
+msgstr ""
+
+#: english.conf:222
+msgid "Set"
+msgstr ""
+
+#: english.conf:262
+msgid "Xinitrc"
+msgstr ""
+
+#: english.conf:284
+msgid "Choose"
+msgstr ""
+
+#: english.conf:696
+msgid "Warning:"
+msgstr ""
+
+#: english.conf:702
+msgid "Begin"
+msgstr ""
+
+#: english.conf:708
+msgid "nPlease"
+msgstr ""
+
+#: english.conf:710
+msgid "nRe-enter"
+msgstr ""
+
+#: english.conf:714
+msgid "Disable"
+msgstr ""
+
+#: english.conf:716
+msgid "Delete"
+msgstr ""
+
+#: english.conf:724
+msgid "Proceed"
+msgstr ""
+
+#: english.conf:726 english.conf:811 english.conf:828
+msgid "A"
+msgstr ""
+
+#: english.conf:728 english.conf:730
+msgid "The"
+msgstr ""
+
+#: english.conf:738
+msgid "Partitioning"
+msgstr ""
+
+#: english.conf:746
+msgid "Generating"
+msgstr ""
+
+#: english.conf:748
+msgid "Setting"
+msgstr ""
+
+#: english.conf:754
+msgid "Xfce4"
+msgstr ""
+
+#: english.conf:755
+msgid "Mate"
+msgstr ""
+
+#: english.conf:756
+msgid "LXDE"
+msgstr ""
+
+#: english.conf:757
+msgid "LXQT"
+msgstr ""
+
+#: english.conf:758 english.conf:773
+msgid "Gnome"
+msgstr ""
+
+#: english.conf:759
+msgid "Cinnamon"
+msgstr ""
+
+#: english.conf:760
+msgid "Kde"
+msgstr ""
+
+#: english.conf:761
+msgid "Enlightenment"
+msgstr ""
+
+#: english.conf:762
+msgid "Openbox"
+msgstr ""
+
+#: english.conf:763
+msgid "Awesome"
+msgstr ""
+
+#: english.conf:764
+msgid "i3"
+msgstr ""
+
+#: english.conf:765
+msgid "Fluxbox"
+msgstr ""
+
+#: english.conf:767
+msgid "bspwm"
+msgstr ""
+
+#: english.conf:768
+msgid "Deepin"
+msgstr ""
+
+#: english.conf:769 english.conf:772 english.conf:776 english.conf:777
+#: english.conf:778
+msgid "Anarchy"
+msgstr ""
+
+#: english.conf:770
+msgid "xmonad"
+msgstr ""
+
+#: english.conf:771
+msgid "Budgie"
+msgstr ""
+
+#: english.conf:775
+msgid "Sway"
+msgstr ""
+
+#: english.conf:779
+msgid "Qtile"
+msgstr ""
+
+#: english.conf:785
+msgid "GNOME"
+msgstr ""
+
+#: english.conf:786
+msgid "Multi"
+msgstr ""
+
+#: english.conf:787
+msgid "Lxdm"
+msgstr ""
+
+#: english.conf:788
+msgid "Simple"
+msgstr ""
+
+#: english.conf:795
+msgid "Audio"
+msgstr ""
+
+#: english.conf:796 english.conf:815
+msgid "Advanced"
+msgstr ""
+
+#: english.conf:797
+msgid "CLI"
+msgstr ""
+
+#: english.conf:798
+msgid "JACK"
+msgstr ""
+
+#: english.conf:799 english.conf:801 english.conf:805 english.conf:808
+msgid "Music"
+msgstr ""
+
+#: english.conf:800
+msgid "Linux"
+msgstr ""
+
+#: english.conf:802
+msgid "GUI"
+msgstr ""
+
+#: english.conf:803
+msgid "PulseAudio"
+msgstr ""
+
+#: english.conf:804 english.conf:826 english.conf:830
+msgid "Console"
+msgstr ""
+
+#: english.conf:806
+msgid "Equalizer"
+msgstr ""
+
+#: english.conf:807
+msgid "Qt5"
+msgstr ""
+
+#: english.conf:813 english.conf:817
+msgid "SQL"
+msgstr ""
+
+#: english.conf:814
+msgid "Sqlite"
+msgstr ""
+
+#: english.conf:816
+msgid "Powerful"
+msgstr ""
+
+#: english.conf:818 english.conf:850
+msgid "Fast"
+msgstr ""
+
+#: english.conf:819
+msgid "Sophisticated"
+msgstr ""
+
+#: english.conf:820
+msgid "Web-based"
+msgstr ""
+
+#: english.conf:823
+msgid "Chromium"
+msgstr ""
+
+#: english.conf:824
+msgid "FTP,"
+msgstr ""
+
+#: english.conf:825
+msgid "Firefox"
+msgstr ""
+
+#: english.conf:827
+msgid "Watch"
+msgstr ""
+
+#: english.conf:829
+msgid "Email"
+msgstr ""
+
+#: english.conf:831
+msgid "Graphical"
+msgstr ""
+
+#: english.conf:832
+msgid "Highly-configurable"
+msgstr ""
+
+#: english.conf:833 english.conf:834
+msgid "GTK-based"
+msgstr ""
+
+#: english.conf:835
+msgid "Lightweight"
+msgstr ""
+
+#: english.conf:839
+msgid "Fonts"
+msgstr ""
+
+#: english.conf:842
+msgid "Free"
+msgstr ""
+
+#: english.conf:843
+msgid "Port"
+msgstr ""
+
+#: english.conf:844
+msgid "Multiperson,"
+msgstr ""
+
+#: english.conf:845
+msgid "Open-source"
+msgstr ""
+
+#: english.conf:846
+msgid "Classic"
+msgstr ""
+
+#: english.conf:847
+msgid "Similar"
+msgstr ""
+
+#: english.conf:848
+msgid "Kart"
+msgstr ""
+
+#: english.conf:849
+msgid "Modern"
+msgstr ""
+
+#: english.conf:851
+msgid "Free,"
+msgstr ""
+
+#: english.conf:852
+msgid ""
+"Valves digital software delivery system)\n"
+"game11=$(GETTEXT AisleRiot Solitaire collection)\n"
+"\n"
+"# Graphic\n"
+"graphic0=$(GETTEXT 3D graphics creation suite)\n"
+"graphic1=$(GETTEXT Photography development application)\n"
+"graphic2=$(GETTEXT GNU Image Manipulation)\n"
+"graphic3=$(GETTEXT Set of tools for drawing graphs)\n"
+"graphic4=$(GETTEXT Command-line image manipulation program)\n"
+"graphic5=$(GETTEXT Drawing and editing program)\n"
+"graphic6=$(GETTEXT Lightweight image viewer)\n"
+"graphic7=$(GETTEXT A powerful raw image processing program)\n"
+"graphic8=$(GETTEXT Image processing system)\n"
+"graphic9=$(GETTEXT Professional vector graphics editor)\n"
+"graphic10=$(GETTEXT Paint icons and pixel based artwork)\n"
+"graphic11=$(GETTEXT Painting application for digital painters)\n"
+"\n"
+"# Multimedia\n"
+"media0=$(GETTEXT Multithreaded video transcoder)\n"
+"media1=$(GETTEXT Media Player)\n"
+"media2=$(GETTEXT Video editing software)\n"
+"media3=$(GETTEXT Screen capture software)\n"
+"media4=$(GETTEXT A free front-end for MPlayer)\n"
+"media5=$(GETTEXT GNOME media player)\n"
+"media6=$(GETTEXT VLC graphical media player)\n"
+"media7=$(GETTEXT Media player-MPlayer based)\n"
+"media8=$(GETTEXT Multimedia codecs)\n"
+"media9=$(GETTEXT Full featured video editor for Linux)\n"
+"media10=$(GETTEXT Screencast GIF tool)\n"
+"media11=$(GETTEXT Powerful and simple media player)\n"
+"media12=$(GETTEXT Download videos and audio from YouTube)\n"
+"\n"
+"# Office\n"
+"office0=$(GETTEXT Free word processing)\n"
+"office1=$(GETTEXT Graphic Art And Office Suite)\n"
+"office2=$(GETTEXT Powerful spreadsheet application)\n"
+"office3=$(GETTEXT Powerful spreadsheet application)\n"
+"office4=$(GETTEXT Office word processor latest)\n"
+"office5=$(GETTEXT Office word processor maintenance)\n"
+"office6=$(GETTEXT Lightweight PDF and XPS viewer)\n"
+"office7=$(GETTEXT Minimalistic document viewer)\n"
+"office8=$(GETTEXT A collaborative office text editor)\n"
+"office9=$(GETTEXT Office document viewer for GNOME)\n"
+"office10=$(GETTEXT Create labels and business cards)\n"
+"office11=$(GETTEXT Desktop publishing software)\n"
+"\n"
+"# Programming\n"
+"prg0=$(GETTEXT Common Lisp interpreter, compiler and debugger)\n"
+"prg1=$(GETTEXT The D programming language and compiler)\n"
+"prg2=$(GETTEXT The dart programming language SDK)\n"
+"prg3=$(GETTEXT The Go programming language)\n"
+"prg4=$(GETTEXT Developer tools for Go language)\n"
+"prg5=$(GETTEXT Java Runtime Environments)\n"
+"prg7=$(GETTEXT OpenJDK Java 8 development kit)\n"
+"prg8=$(GETTEXT OpenJFX 8 client application platform)\n"
+"prg9=$(GETTEXT A feature-rich programming language)\n"
+"prg10=$(GETTEXT A general-purpose scripting language)\n"
+"prg11=$(GETTEXT High-level scripting language)\n"
+"prg12=$(GETTEXT An object-oriented language)\n"
+"prg13=$(GETTEXT Object-oriented and functional based)\n"
+"prg14=$(GETTEXT OpenJDK Java 11 development kit)\n"
+"prg15=$(GETTEXT OpenJDK Java 12 development kit)\n"
+"\n"
+"# Terminal\n"
+"term0=$(GETTEXT Framebuffer Terminal Emulator)\n"
+"term1=$(GETTEXT GNOME Dropdown Terminal)\n"
+"term2=$(GETTEXT Simple terminal emulator)\n"
+"term3=$(GETTEXT Light Weight Terminal)\n"
+"term4=$(GETTEXT urxvt Terminal Emulator)\n"
+"term5=$(GETTEXT Terminator Terminal Emulator)\n"
+"term6=$(GETTEXT XFCE4 Terminal Emulator)\n"
+"term7=$(GETTEXT Drop-down terminal (Quake style))\n"
+"term8=$(GETTEXT A simple terminal emulator for X)\n"
+"term9=$(GETTEXT A simple VTE-based terminal)\n"
+"term10=$(GETTEXT EFL based terminal emulator)\n"
+"term11=$(GETTEXT Quake and Doom inspired terminal)\n"
+"term12=$(GETTEXT Terminal which mimics a cathode display)\n"
+"term13=$(GETTEXT A tiling terminal emulator for Linux using GTK+ 3)\n"
+"\n"
+"# Text editor\n"
+"edit0=$(GETTEXT OS in a text editor)\n"
+"edit1=$(GETTEXT A text editor using GTK2)\n"
+"edit2=$(GETTEXT GNOME Text editor)\n"
+"edit3=$(GETTEXT Graphical interface for Vim)\n"
+"edit4=$(GETTEXT XFCE4 Text editor)\n"
+"edit5=$(GETTEXT Popular fork of VIM editor)\n"
+"edit6=$(GETTEXT Console Text Editor fork of vi)\n"
+"edit7=$(GETTEXT Atom feature rich text editor)\n"
+"edit8=$(GETTEXT A WYSIWYG text editor)\n"
+"\n"
+"# Shell\n"
+"shell0=$(GETTEXT DASH command shell (Debian Almquist shell))\n"
+"shell1=$(GETTEXT Fish command shell (friendly interactive shell))\n"
+"shell2=$(GETTEXT Korn command shell (mksh enhanced ksh))\n"
+"shell3=$(GETTEXT tcsh/C command Shell (The C Shell))\n"
+"shell4=$(GETTEXT Z-Shell command shell (Powerful & Feature rich))\n"
+"shell5=$(GETTEXT Bourne again shell (Default Linux shell))\n"
+"\n"
+"# Server\n"
+"srv1=$(GETTEXT Linux Apache MariaDB PHP server stack)\n"
+"srv2=$(GETTEXT Linux Nginx MariaDB PHP server stack)\n"
+"srv3=$(GETTEXT Nginx HTTP/Proxy Server (Stable Branch))\n"
+"srv4=$(GETTEXT Nginx HTTP/Proxy Server (Latest Branch))\n"
+"srv5=$(GETTEXT Light Flexible HTTP Server)\n"
+"srv6=$(GETTEXT Secure fast mail server)\n"
+"srv7=$(GETTEXT Very Secure FTP daemon)\n"
+"srv8=$(GETTEXT Full-featured Web proxy cache server)\n"
+"srv9=$(GETTEXT SMB Fileserver and AD Domain server)\n"
+"srv10=$(GETTEXT The ISC DNS Server)\n"
+"srv11=$(GETTEXT The CUPS Printing System)\n"
+"sys1=$(GETTEXT Apache High Proformance HTTP Server)\n"
+"sys10=$(GETTEXT Secure Shell Deamon)\n"
+"\n"
+"# System\n"
+"sys2=$(GETTEXT Light system monitor for X)\n"
+"sys3=$(GETTEXT Source control management)\n"
+"sys4=$(GETTEXT Partition and disk managment)\n"
+"sys5=$(GETTEXT A mouse server for the console)\n"
+"sys6=$(GETTEXT CLI process Info)\n"
+"sys7=$(GETTEXT Arch wiki CLI utility)\n"
+"sys8=$(GETTEXT CD/DVD writing suite)\n"
+"sys9=$(GETTEXT CLI network analyzer)\n"
+"sys11=$(GETTEXT GNU Screen)\n"
+"sys12=$(GETTEXT Display System Info)\n"
+"sys13=$(GETTEXT Simple command-line screenshot)\n"
+"sys14=$(GETTEXT Terminal multiplxer)\n"
+"sys15=$(GETTEXT Twin-panel file manager)\n"
+"sys16=$(GETTEXT Desktop virtualization)\n"
+"sys17=$(GETTEXT Uncomplicated Firewall)\n"
+"sys18=$(GETTEXT Wget CLI downloader)\n"
+"sys19=$(GETTEXT Lightweight dynamic menu for X)\n"
+"sys20=$(GETTEXT Console-based file manager)\n"
+"sys21=$(GETTEXT Lightweight file manager for X)\n"
+"sys22=$(GETTEXT Deletes unneeded files)\n"
+"#sys23=$(GETTEXT Graphical file manager for X)\n"
+"sys24=$(GETTEXT Graphical calculator application)\n"
+"sys25=$(GETTEXT Basic cli calculator)\n"
+"sys26=$(GETTEXT GNOME graphical package manager)\n"
+"sys27=$(GETTEXT GNOME Software Tools)\n"
+"sys28=$(GETTEXT NTFS drivers and utilities)\n"
+"sys34=$(GETTEXT Screensaver for xorg)\n"
+"\n"
+"}\n"
+"\n"
+"#####################################################################\n"
+"### END TRANSLATION ##################################################\n"
+"### DO NOT EDIT BELOW THIS LINE! ########################################\n"
+"####################################################################\n"
+"a=\"\\Z2*\\Zn\"\n"
+"h=\"\\Z2<\\Z1#\\Z2>\\Zn\"\n"
+"\n"
+"if \"$reload\" ; then\n"
+"\tvar_msg\n"
+"\tload_var_msg\n"
+"\ttranslate_this_var\n"
+"else\n"
+"\tdialog_msg\n"
+"\tmain_msg\n"
+"\tload_msg\n"
+"\tpart_msg\n"
+"\tfs_msg\n"
+"\tgraphics_msg\n"
+"\tde_msg\n"
+"\tdm_msg\n"
+"\tmenu_msg\n"
+"\tsoft_msg\n"
+"\top_msg\n"
+"\ttranslate_this\n"
+"fi\n"
+msgstr ""

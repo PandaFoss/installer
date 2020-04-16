@@ -39,25 +39,83 @@ language() {
         "Spanish" "Español" \
         "Swedish" "Svenska" 3>&1 1>&2 2>&3)
 
+    for FILE in $(ls -Imo po); do
+        msgfmt -v /usr/share/anarchy/lang/${FILE} -o /usr/share/anarchy/lang/mo/${FILE} &>/dev/null
+    done
+
     case "$ILANG" in
-        "English") export lang_file="${anarchy_directory}"/lang/english.conf ;;
-        "Bulgarian") export lang_file="${anarchy_directory}"/lang/bulgarian.conf lib=bg bro=bg ;;
-        "Dutch") export lang_file="${anarchy_directory}"/lang/dutch.conf lib=nl bro=nl ;;
-        "French") export lang_file="${anarchy_directory}"/lang/french.conf lib=fr bro=fr ;;
-        "German") export lang_file="${anarchy_directory}"/lang/german.conf lib=de bro=de ;;
-        "Greek") export lang_file="${anarchy_directory}"/lang/greek.conf lib=el bro=el ;;
-        "Hungarian") export lang_file="${anarchy_directory}"/lang/hungarian.conf lib=hu bro=hu ;;
-        "Indonesian") export lang_file="${anarchy_directory}"/lang/indonesia.conf lib=id bro=id ;;
-        "Italian") export lang_file="${anarchy_directory}"/lang/italian.conf lib=it bro=it ;;
-        "Latvian") export lang_file="${anarchy_directory}"/lang/latvian.conf lib=lv bro=lv ;;
-        "Lithuanian") export lang_file="${anarchy_directory}"/lang/lithuanian.conf lib=lt bro=lt ;;
-        "Polish") export lang_file="${anarchy_directory}"/lang/polish.conf lib=pl bro=pl ;;
-        "Portuguese") export lang_file="${anarchy_directory}"/lang/portuguese.conf lib=pt bro=pt-pt ;;
-        "Portuguese-Brazilian") export lang_file="${anarchy_directory}"/lang/portuguese-br.conf lib=pt-br bro=pt-br ;;
-        "Romanian") export lang_file="${anarchy_directory}"/lang/romanian.conf lib=ro bro=ro ;;
-        "Russian") export lang_file="${anarchy_directory}"/lang/russian.conf lib=ru bro=ru ;;
-        "Spanish") export lang_file="${anarchy_directory}"/lang/spanish.conf lib=es bro=es-es ;;
-        "Swedish") export lang_file="${anarchy_directory}"/lang/swedish.conf lib=sv bro=sv-se ;;
+        "English") 
+            install en_EN.mo /usr/share/locale/en_EN/LC_MESSAGES/anarchy.mo
+            export LANGUAGUE=en_EN
+            ;;
+        "Bulgarian") 
+            install bg_BG.mo /usr/share/locale/bg_BG/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=bg_BG
+            ;;
+        "Dutch") 
+            install nl_NL.mo /usr/share/locale/nl_NL/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=nl_NL
+            ;;
+        "French") 
+            install fr_FR.mo /usr/share/locale/fr_FR/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=fr_FR
+            ;;
+        "German") 
+            install de_DE.mo /usr/share/locale/de_DE/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=de_DE
+            ;;
+        "Greek") 
+            install el_GR.mo /usr/share/locale/el/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=el_GR
+            ;;
+        "Hungarian") 
+            install hu_HU.mo /usr/share/locale/hu_HU/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=hu_HU
+            ;;
+        "Indonesian") 
+            install id_ID.mo /usr/share/locale/id_ID/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=id_ID
+            ;;
+        "Italian") 
+            install it_IT.mo /usr/share/locale/it_IT/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=it_IT
+            ;;
+        "Latvian") 
+            install lv_LV.mo /usr/share/locale/lv_LV/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=lv_LV
+            ;;
+        "Lithuanian") 
+            install lt_LT.mo /usr/share/locale/lt_LT/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=lt_LT
+            ;;
+        "Polish") 
+            install pl_PL.mo /usr/share/locale/pl_PL/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=pl_PL
+            ;;
+        "Portuguese") 
+            install pt_PT.mo /usr/share/locale/pt_PT/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=pt_PT
+            ;;
+        "Portuguese-Brazilian") 
+            install pt_BR.mo /usr/share/locale/pt_BR/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=pt_BR
+            ;;
+        "Romanian") 
+            install ro_RO.mo /usr/share/locale/ro_RO/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=ro_RO
+            ;;
+        "Russian") 
+            install ru_RU.mo /usr/share/locale/ru_RU/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=ru_RU
+            ;;
+        "Spanish") 
+            install es_ES.mo /usr/share/locale/es_ES/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=es_ES
+            ;;
+        "Swedish") 
+            install sv_SE.mo /usr/share/locale/sv/LC_MESSAGES/anarchy.mo 
+            export LANGUAGUE=sv_SE
+            ;;
     esac
 
 }
